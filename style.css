@@ -1,0 +1,88 @@
+.container-fluid {
+    padding: 0px;
+    margin: 0px;
+}
+
+.custom-width{
+    width: 58vh;
+    margin: 10px;
+    border-right: 4px solid black;
+    border-bottom:2px solid black;
+    border-left-color: white;
+    border-top-color: white;
+    border-style: outset;
+    border-radius: 5px;
+}
+
+.signButton{
+    background: #11C5DF;
+    height: 9vh;
+}
+
+.gradHat {
+    height: 6vh;
+    cursor: pointer;
+}
+
+.sign_in {
+    font-size: 1.5rem;
+}
+
+a:hover, a:link, a:visited {
+	color: #60605F;
+}
+
+
+.outer-align {
+    display: flex;
+    justify-content: center;
+}
+
+.sign-in-button {
+    width: 100%;
+    background: #11C5DF;
+}
+
+.facebookButton {
+    background: #3b5998;
+    width: 100%;
+    opacity: 0.8;
+}
+
+.facebookButton:hover{
+    opacity: 1;
+}
+
+.googleButton {
+    background: #F05925;
+    width: 100%;
+    opacity: 0.8;
+}
+
+.googleButton:hover{
+    opacity: 1;
+}
+
+.epamButton {
+    background: #DFC611;
+    width: 100%;
+    opacity: 0.8;
+}
+
+.epamButton:hover{
+    opacity: 1;
+}
+
+
+.button-icon{
+    height: 5vh;
+}
+
+@media only screen and (max-width: 600px){
+    .outer-align{
+        display: flex;
+    }
+    .custom-width{
+        margin: 0px;
+    }
+}
